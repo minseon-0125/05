@@ -4,15 +4,15 @@ int main(void)
 {
     int num;
     printf("Input a number :" );
-    scanf("%d", &num);
+    scanf("%i", &num);
     
-    if (num >0)
-    printf("positive number\n");
-    else if (num <0)
-    printf("negative number\n");
-    else
-    printf("zero\n");
+   if (num>0)
+   printf("Positive!\n");
+   else if (num<0)
+   printf("Negative!\n");
 
-    return 0;
-
+   else
+   printf("Zero!\n");
+   
+   return 0;
 }
